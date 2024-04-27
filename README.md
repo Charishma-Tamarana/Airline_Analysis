@@ -27,8 +27,11 @@ pip install google-cloud-bigquery
 
 3. Setting up Authentication in Jupyter Notebook:
 •	Open your Jupyter Notebook and set the GOOGLE_APPLICATION_CREDENTIALS environment variable to the path of your credentials JSON file. This informs the google-cloud-bigquery library about the location of your credentials.
+
 Code:
 import os
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/path/to/your/credentials.json"
 
-4. Testing the Connection: Verify the connection to BigQuery by executing sample queries within your Jupyter Notebook using the google-cloud-bigquery library.
+5. Testing the Connection: Verify the connection to BigQuery by executing sample queries within your Jupyter Notebook using the google-cloud-bigquery library.
+
+Performing ETL : https://cloud.google.com/architecture/performing-etl-from-relational-database-into-bigquery
